@@ -57,6 +57,7 @@ async function main() {
         console.error(error.message);
     });
     while (true) {
+      console.log("Please fill in checkin date.")
       const day = await prompt("Day: ")
       const month = await prompt("Month: ");
       const year = await prompt("Year: ");
